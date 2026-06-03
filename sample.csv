@@ -1,0 +1,4 @@
+SubscriptionName,SubscriptionId,Region,ResourceProvider,ResourceName,DisplayName,CurrentUsage,QuotaLimit,Unit
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.App,ManagedEnvironmentCount,Managed Environment Count,0,50,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.App,SubscriptionDedicatedNCA100Gpus,Subscription Dedicated NCA 100 Gpus,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.App,SessionPools,Session Pools,0,50,Count
