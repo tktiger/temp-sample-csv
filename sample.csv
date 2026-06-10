@@ -2,3 +2,923 @@ SubscriptionName,SubscriptionId,Region,ResourceProvider,ResourceName,DisplayName
 rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.App,ManagedEnvironmentCount,Managed Environment Count,0,50,Count
 rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.App,SubscriptionDedicatedNCA100Gpus,Subscription Dedicated NCA 100 Gpus,-1,0,Count
 rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.App,SessionPools,Session Pools,0,50,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.App,ExpressEnvironmentCount,Express Environment Count,0,500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Storage,StorageAccounts,Storage Accounts,18,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.StorageCache,Cache,Cache,0,4,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.StorageCache,AmlFilesystem,AmlFilesystem,0,4,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,VirtualNetworks,Virtual Networks,1,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,CustomIpPrefixes,Custom Ip Prefixes,0,5,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PublicIpPrefixes,Public Ip Prefixes,0,2147483647,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PublicIPAddresses,Public IP Addresses,1,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPv4BasicSkuPublicIpAddresses,Public IPv4 Addresses - Basic,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPv6BasicSkuPublicIpAddresses,Public IPv6 Addresses - Basic,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPv4StandardSkuPublicIpAddresses,Public IPv4 Addresses - Standard,1,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPv6StandardSkuPublicIpAddresses,Public IPv6 Addresses - Standard,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPv4GlobalTierPublicIpAddresses,Public IPv4 Addresses - Global Tier,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPv6GlobalTierPublicIpAddresses,Public IPv6 Addresses - Global Tier,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPv4InternetRoutingPreferencePublicIpAddresses,Public IPv4 Addresses - Internet Routing Preference,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPv6InternetRoutingPreferencePublicIpAddresses,Public IPv6 Addresses - Internet Routing Preference,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,NetworkSecurityGroups,Network Security Groups,11,5000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,NatGateways,Nat Gateways,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,NetworkInterfaces,Network Interfaces,40,65536,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PrivateEndpoints,Private Endpoints,31,65536,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PrivateEndpointRedirectMaps,Private Endpoint Redirect Maps,0,2147483647,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,LoadBalancers,Load Balancers,2,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PrivateLinkServices,Private Link Services,0,1800,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PrivateLinkServicesDirectConnect,Private Link Services Direct Connect,0,10,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,ApplicationGateways,Application Gateways,1,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,RouteTables,Route Tables,2,600,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,RouteFilters,Route Filters,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,NetworkInterfaceTapConfiguration,Network Interface Tap Configuration.,0,10,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,NetworkWatchers,Network Watchers,1,1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PacketCaptures,Packet Captures,0,10000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,ApplicationSecurityGroups,Application Security Groups.,0,3000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,DdosProtectionPlans,DDoS Protection Plans.,0,1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,DdosCustomPolicies,DDoS customized policies,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,ServiceEndpointPolicies,Service Endpoint Policies,0,500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,NetworkIntentPolicies,Network Intent Policies,1,400,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,StandardSkuLoadBalancers,Standard Sku Load Balancers,2,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,ServiceSkuLoadBalancers,Service Sku Load Balancers,0,10000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,AuxiliaryModeEnabledNetworkInterfaces,Auxiliary Mode Enabled Network Interfaces,0,10,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,VirtualNetworkAppliances,Virtual Network Appliances,0,2,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,DnsServersPerVirtualNetwork,DNS servers per Virtual Network,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,CustomDnsServersPerP2SVpnGateway,Custom DNS servers per P2SVpnGateway,0,5,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,SubnetsPerVirtualNetwork,Subnets per Virtual Network,0,3000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPConfigurationsPerVirtualNetwork,IP Configurations per Virtual Network,0,65536,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,IPV6ConfigurationsPerNetworkInterface,IPV6 Configurations per Network Interface,0,8,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PeeringsPerVirtualNetwork,Peerings per Virtual Network,0,500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,PrefixesPerSubnet,Prefixes per Subnet,0,25,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,SecurityRulesPerNetworkSecurityGroup,Security rules per Network Security Group,0,2000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,SecurityRulesPerNetworkIntentPolicy,Security rules per Network Intent Policy,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,RoutesPerNetworkIntentPolicy,Routes per Network Intent Policy,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,SecurityRuleAddressesOrPortsPerNetworkSecurityGroup,Security rules addresses or ports per Network Security Group,0,6000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,InboundRulesPerLoadBalancer,Inbound Rules per Load Balancer,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,FrontendIPConfigurationPerLoadBalancer,Frontend IP Configurations per Load Balancer,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,OutboundRulesPerLoadBalancer,Outbound Rules per Load Balancer,0,5,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,RoutesPerRouteTable,Routes per Route Table,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,RoutesWithServiceTagPerRouteTable,Routes with service tag per Route Table,0,25,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,SecondaryIPConfigurationsPerNetworkInterface,Secondary IP Configurations per Network Interface,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,SecondaryIPConfigurationsPerPrivateEndpointNetworkInterface,Secondary IP Configurations per PrivateEndpoint Network Interface,0,500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,InboundNatOrLbRulesPerNetworkInterface,Inbound rules per Network Interface,0,300,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,RouteFilterRulesPerRouteFilter,Route filter rules per Route Filter,0,1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,RouteFiltersPerExpressRouteBgpPeering,Route filters per Express route BGP Peering,0,1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Network,MinPublicIpInterNetworkPrefixLength,Public IPv4 Prefix Length,0,28,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,cores,Total Regional vCPUs,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardAV2Family,StandardAV2Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardDadsV5Family,StandardDadsV5Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardDaV4Family,StandardDaV4Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardDFamily,StandardDFamily,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardDsV2Family,StandardDsV2Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardEadsV5Family,StandardEadsV5Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardEasV4Family,StandardEasV4Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardEaV4Family,StandardEaV4Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,standardEISv3Family,standardEISv3Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,standardEIv3Family,standardEIv3Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,StandardEsV3Family,StandardEsV3Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,standardEv3Family,standardEv3Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.HDInsight,standardFFamily,standardFFamily,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,TotalClusters,Total Clusters,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,TotalDedicatedCores,Total Cluster Dedicated Regional vCPUs,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDFamily,Standard D Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDv2Family,Standard Dv2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDv3Family,Standard Dv3 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDSv2Family,Standard DSv2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDSv3Family,Standard DSv3 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardFSv2Family,Standard FSv2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCFamily,Standard NC Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCSv2Family,Standard NCSv2 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCSv3Family,Standard NCSv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDSFamily,Standard NDS Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDSv2Family,Standard NDSv2 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNVFamily,Standard NV Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardMSFamily,Standard MS Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNVSv3Family,Standard NVSv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHBrsv2Family,Standard HBrsv2 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHCSFamily,Standard HCS Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,Standard NCASv3_T4 Family,Standard  NCASv3_T4  Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,Standard NDASv4_A100 Family,Standard  NDASv4_A100  Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCADSA100v4Family,Standard NCADSA100v4 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standard NDAMSv4_A100Family,Standard  NDAMSv4_A100 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCPromoFamily,Standard NCPromo Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEAv4Family,Standard EAv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHBSFamily,Standard HBS Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEv3Family,Standard Ev3 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDDSv4Family,Standard DDSv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardLSv2Family,Standard LSv2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHBv3Family,Standard HBv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardFXMDVSFamily,Standard FXMDVS Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardESv3Family,Standard ESv3 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDASv4Family,Standard DASv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEADSv5Family,Standard EADSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDDv4Family,Standard DDv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDAv4Family,Standard DAv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEDSv4Family,Standard EDSv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEDv4Family,Standard EDv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEASv4Family,Standard EASv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardAv2Family,Standard Av2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHFamily,Standard H Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDAMSv4A100noRDMAFamily,Standard NDAMSv4A100noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDADSv5Family,Standard DADSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEBDSv5Family,Standard EBDSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDDSv5Family,Standard DDSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDv5H100Family,Standard NDv5H100 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEDSv5Family,Standard EDSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEDv5Family,Standard EDv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDDv5Family,Standard DDv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardLSv3Family,Standard LSv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardLASv3Family,Standard LASv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDv4A100FlexFamily,Standard NDv4A100Flex Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCADSH100v5Family,Standard NCADSH100v5 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNVADSA10v5Family,Standard NVADSA10v5 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDv5H100FlexFamily,Standard NDv5H100Flex Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDAMSFv4A100Family,Standard NDAMSFv4A100 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISH100V5noRDMAFamily,Standard NDISH100V5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISFlexH100V5noRDMAFamily,Standard NDISFlexH100V5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardMSv2Family,Standard MSv2 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISH200V5noRDMAFamily,Standard NDISH200V5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISRH200V5Family,Standard NDISRH200V5 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISFlexH200V5noRDMAFamily,Standard NDISFlexH200V5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISRFlexH200V5Family,Standard NDISRFlexH200V5 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDMI300Xv5IBFamily,Standard NDMI300Xv5IB Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDFlexMI300XV5noRDMAFamily,Standard NDFlexMI300XV5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,TotalLowPriorityCores,Total Cluster Low Priority Regional vCPUs,0,300,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDFamily,Standard D Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDv2Family,Standard Dv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDv3Family,Standard Dv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDSv2Family,Standard DSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDSv3Family,Standard DSv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardFSv2Family,Standard FSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCFamily,Standard NC Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCSv2Family,Standard NCSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCSv3Family,Standard NCSv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDSFamily,Standard NDS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDSv2Family,Standard NDSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNVFamily,Standard NV Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardMSFamily,Standard MS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNVSv3Family,Standard NVSv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHBrsv2Family,Standard HBrsv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHCSFamily,Standard HCS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,Standard NCASv3_T4 Family,Standard  NCASv3_T4  Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,Standard NDASv4_A100 Family,Standard  NDASv4_A100  Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCADSA100v4Family,Standard NCADSA100v4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standard NDAMSv4_A100Family,Standard  NDAMSv4_A100 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCPromoFamily,Standard NCPromo Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEAv4Family,Standard EAv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHBSFamily,Standard HBS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEv3Family,Standard Ev3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDDSv4Family,Standard DDSv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardLSv2Family,Standard LSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHBv3Family,Standard HBv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardFXMDVSFamily,Standard FXMDVS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardESv3Family,Standard ESv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDASv4Family,Standard DASv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEADSv5Family,Standard EADSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDDv4Family,Standard DDv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDAv4Family,Standard DAv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEDSv4Family,Standard EDSv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEDv4Family,Standard EDv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEASv4Family,Standard EASv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardAv2Family,Standard Av2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardHFamily,Standard H Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDAMSv4A100noRDMAFamily,Standard NDAMSv4A100noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDADSv5Family,Standard DADSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEBDSv5Family,Standard EBDSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDDSv5Family,Standard DDSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDv5H100Family,Standard NDv5H100 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEDSv5Family,Standard EDSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardEDv5Family,Standard EDv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardDDv5Family,Standard DDv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardLSv3Family,Standard LSv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardLASv3Family,Standard LASv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDv4A100FlexFamily,Standard NDv4A100Flex Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNCADSH100v5Family,Standard NCADSH100v5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNVADSA10v5Family,Standard NVADSA10v5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDv5H100FlexFamily,Standard NDv5H100Flex Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDAMSFv4A100Family,Standard NDAMSFv4A100 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISH100V5noRDMAFamily,Standard NDISH100V5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISFlexH100V5noRDMAFamily,Standard NDISFlexH100V5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardMSv2Family,Standard MSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISH200V5noRDMAFamily,Standard NDISH200V5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISRH200V5Family,Standard NDISRH200V5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISFlexH200V5noRDMAFamily,Standard NDISFlexH200V5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,StandardNDISRFlexH200V5Family,Standard NDISRFlexH200V5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDMI300Xv5IBFamily,Standard NDMI300Xv5IB Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.MachineLearningServices,standardNDFlexMI300XV5noRDMAFamily,Standard NDFlexMI300XV5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.AVS,av36,av36,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.AVS,av64,av64,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.ContainerService,ManagedClusters,Managed Clusters,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDSv3Family,Standard DSv3 Family vCPUs,64,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDSv5Family,Standard DSv5 Family vCPUs,16,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,lowPriorityCores,Total Regional Low-priority vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,cores,Total Regional vCPUs,80,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,virtualMachines,Virtual Machines,5,25000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,availabilitySets,Availability Sets,0,2500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,virtualMachineScaleSets,Virtual Machine Scale Sets,0,2500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,dedicatedVCpus,Dedicated vCPUs,0,3000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,cloudServices,Cloud Services,0,2500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,basicAFamily,Basic A Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardA0_A7Family,Standard A0-A7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardA8_A11Family,Standard A8-A11 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardAv2Family,Standard Av2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardBSFamily,Standard BS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardBasv2Family,Standard Basv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardBsv2Family,Standard Bsv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardBpsv2Family,Standard Bpsv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDFamily,Standard D Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDv2Family,Standard Dv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDv2PromoFamily,Standard Dv2 Promo Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDadsv7Family,Standard Dadsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDaldsv7Family,Standard Daldsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDalsv7Family,Standard Dalsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDasv7Family,Standard Dasv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDdsv6Family,Standard Ddsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDldsv6Family,Standard Dldsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDlsv6Family,Standard Dlsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDsv6Family,Standard Dsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDADSv5Family,Standard DADSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDadv6Family,standard Dadv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDaldv6Family,standard Daldv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDalv6Family,standard Dalv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDASv4Family,Standard DASv4 Family vCPUs,0,175,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDASv5Family,Standard DASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDav6Family,standard Dav6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDAv4Family,Standard DAv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDDSv4Family,Standard DDSv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDDSv5Family,Standard DDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDDv4Family,Standard DDv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDDv5Family,Standard DDv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDLDSv5Family,Standard DLDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDLSv5Family,Standard DLSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDPDSv5Family,Standard DPDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDpdsv6Family,Standard Dpdsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDPLDSv5Family,Standard DPLDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDpldsv6Family,Standard Dpldsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDPLSv5Family,Standard DPLSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDplsv6Family,Standard Dplsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDPSv5Family,Standard DPSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDpsv6Family,Standard Dpsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDSv4Family,Standard DSv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDv3Family,Standard Dv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDv4Family,Standard Dv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDv5Family,Standard Dv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCADCCV5Family,standard DCADCCV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCADSv5Family,Standard DCADSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCadsv6Family,Standard DCadsv6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCACCV5Family,standard DCACCV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCASv5Family,Standard DCASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCasv6Family,Standard DCasv6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDDCSv3Family,Standard DDCSv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCEDV5Family,Standard DCEDV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCEV5Family,Standard DCEV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCSv3Family,Standard DCSv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCSv2Family,Standard DCSv2 Family vCPUs,0,8,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDCSFamily,Standard DCS Family vCPUs,0,8,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDSFamily,Standard DS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDSv2Family,Standard DSv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardDSv2PromoFamily,Standard DSv2 Promo Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIDSv5Family,Standard EIDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIDv5Family,Standard EIDv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEISv5Family,Standard EISv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIv5Family,Standard EIv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIADSv5Family,Standard EIADSv5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIASv5Family,Standard EIASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIBDSv5Family,Standard EIBDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIBSv5Family,Standard EIBSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardEadsv7Family,Standard Eadsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardEasv7Family,Standard Easv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardEdsv6Family,Standard Edsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardEsv6Family,Standard Esv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEADSv5Family,Standard EADSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEASv4Family,Standard EASv4 Family vCPUs,0,175,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEASv5Family,Standard EASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEDSv4Family,Standard EDSv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEDSv5Family,Standard EDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardESv3Family,Standard ESv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardESv4Family,Standard ESv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardESv5Family,Standard ESv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEadv6Family,standard Eadv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEav6Family,standard Eav6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEAv4Family,Standard EAv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEBDSv5Family,Standard EBDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEBSv5Family,Standard EBSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEDv4Family,Standard EDv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEDv5Family,Standard EDv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEPDSv5Family,Standard EPDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardEpdsv6Family,Standard Epdsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEPSv5Family,Standard EPSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardEpsv6Family,Standard Epsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEv3Family,Standard Ev3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEv4Family,Standard Ev4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEv5Family,Standard Ev5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEISv3Family,Standard EISv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIv3Family,Standard EIv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardXEIDSv4Family,Standard EIDSv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardXEISv4Family,Standard XEISv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardEIASv4Family,Standard EIASv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECEDV5Family,Standard ECEDV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECEV5Family,Standard ECEV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECADCCV5Family,standard ECADCCV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECADSv5Family,Standard ECADSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECadsv6Family,Standard ECadsv6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECACCV5Family,standard ECACCV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECASv5Family,Standard ECASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECasv6Family,Standard ECasv6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECIADSv5Family,Standard ECIADSv5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardECIASv5Family,Standard ECIASv5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardFFamily,Standard F Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFamdsv7Family,Standard Famdsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFamsv7Family,Standard Famsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFadsv7Family,Standard Fadsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFaldsv7Family,Standard Faldsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFalsv6Family,Standard Falsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFalsv7Family,Standard Falsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFamsv6Family,Standard Famsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFasv6Family,Standard Fasv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFasv7Family,Standard Fasv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardFSFamily,Standard FS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardFSv2Family,Standard FSv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFXmdsv2Family,Standard FXmdsv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardFXmsv2Family,Standard FXmsv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardFXMDVSFamily,Standard FXMDVS Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardGFamily,Standard G Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardGSFamily,Standard GS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHFamily,Standard H Family vCPUs,0,32,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHPromoFamily,Standard H Promo Family vCPUs,0,32,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHBrsv2Family,Standard HBrsv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHBv3Family,Standard HBv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHBv4Family,Standard HBv4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHBv5Family,Standard Hbv5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHBSFamily,Standard HBS Family vCPUs,0,240,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHCSFamily,Standard HCS Family vCPUs,0,176,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardHXFamily,Standard HX Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,internalNDMSv1Family,InternalNDM Sv 1 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardLaosv4Family,Standard Laosv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardLASv3Family,Standard LASv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardLasv4Family,Standard Lasv 4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardLSFamily,Standard LS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardLSv2Family,Standard LSv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardLSv3Family,Standard LSv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardLsv4Family,Standard Lsv 4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMSFamily,Standard MS Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardMBDSMediumMemoryv3Family,Standard MBDSMediumMemoryv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardMBSMediumMemoryv3Family,Standard MBSMediumMemoryv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMDSMediumMemoryv2Family,Standard MDSMediumMemoryv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMSMediumMemoryv2Family,Standard MSMediumMemoryv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMDSMediumMemoryv3Family,StandardMDS Medium Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMSMediumMemoryv3Family,StandardMS Medium Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMIDSMediumMemoryv2Family,Standard MIDSMediumMemoryv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMISMediumMemoryv2Family,Standard MISMediumMemoryv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMSv2Family,Standard MSv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMDSHighMemoryv3Family,StandardMDS High Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMSHighMemoryv3Family,StandardMS High Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMIDSHighMemoryv3Family,StandardMIDS High Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardMISHighMemoryv3Family,StandardMIS High Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNCFamily,Standard NC Family vCPUs,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNCSv2Family,Standard NCSv2 Family vCPUs,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNCSv3Family,Standard NCSv3 Family vCPUs,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNCPromoFamily,Standard NC Promo Family vCPUs,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardNCADSA10v4Family,Standard NCADSA10v4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,Standard NCASv3_T4 Family,Standard NCASv3_T4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardNCADSA100v4Family,Standard NCADS_A100_v4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardNCadsH100v5Family,Standard NCadsH100v5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardNCCads2023Family,Standard NCCads2023 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDISRGB300G5V6Family,Standardndisrgb300g5v6family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDISRGB300V6Family,Standard NDISR GB300V6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDISRGB200V6NDRFamily,StandardNDISRGB200V6NDRFamily vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDSFamily,Standard NDS Family vCPUs,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDSv2Family,Standard NDSv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDSv3Family,Standard NDSv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standard NDAMSv4_A100Family,Standard NDAMSv4_A100Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,Standard NDASv4_A100 Family,Standard NDASv4_A100 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDSH100v5Family,Standard NDSH100v5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDISRH200V5Family,StandardNDISRH200V5Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNDISv5MI300XFamily,StandardNDI Sv 5MI300X Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardNGADSV620v1Family,Standard NGADSV620v1 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNPSFamily,Standard NPS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardNVADSA10v5Family,Standard NVADSA10v5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNVFamily,Standard NV Family vCPUs,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardNVadsV710v5Family,Standard NVadsV710v5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNVSv2Family,Standard NVSv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNVSv3Family,Standard NVSv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNVPromoFamily,Standard NV Promo Family vCPUs,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardNVSv4Family,Standard NVSv4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,standardPBSFamily,Standard PBS Family vCPUs,0,24,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardDiskCount,Standard Storage Managed Disks,1,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,PremiumDiskCount,Premium Storage Managed Disks,7,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardSSDDiskCount,StandardSSDStorageDisks,1,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardSSDZRSDiskCount,StandardSSDZRSStorageDisks,0,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,PremiumZRSDiskCount,PremiumZRSStorageDisks,0,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,UltraSSDDiskCount,UltraSSDStorageDisks,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,PremiumV2DiskCount,PremiumV2StorageDisks,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardSnapshotCount,StandardStorageSnapshots,0,75000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,StandardSSDSnapshotCount,StandardSSDStorageSnapshots,0,75000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,PremiumSnapshotCount,PremiumStorageSnapshots,0,75000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,ZRSSnapshotCount,ZrsStorageSnapshots,0,75000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,UltraSSDDiskSizeInGB,UltraSSDTotalSizeInGB,0,102400,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,PremiumV2DiskSizeInGB,PremiumV2TotalDiskSizeInGB,0,102400,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,DiskEncryptionSetCount,DiskEncryptionSets,0,5000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,DiskAccessCount,DiskAccesses,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,BackgroundCopyInProgressUltraSSDDiskCount,BackgroundCopyInProgressUltraSSDDisks,0,50,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,BackgroundCopyInProgressPremiumV2DiskCount,BackgroundCopyInProgressPremiumV2Disks,0,50,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,PremiumV2SnapshotCount,PremiumV2StorageSnapshots,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,PremiumV2SnapshotSizeInGB,PremiumV2TotalSnapshotSizeInGB,0,102400,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,Gallery,Gallery,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,GalleryImage,Gallery Image,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,GalleryImageVersion,Gallery Image Version,0,10000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,GalleryApplicationVersion,Gallery Application Version,0,300,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Compute,GalleryScriptVersion,Gallery Script Version,0,300,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.DBforMySQL,standardBSFamily,standardBSFamily,0,128,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.DBforMySQL,standardDADSv5Family,standardDADSv5Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.DBforMySQL,standardDDSv4Family,standardDDSv4Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.DBforMySQL,standardEADSv5Family,standardEADSv5Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.DBforMySQL,standardEDSv4Family,standardEDSv4Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.DBforMySQL,standardEDSv5Family,standardEDSv5Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,F1,F1 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,D1,D1 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,B1,B1 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,B2,B2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,B3,B3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,S1,S1 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,S2,S2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,S3,S3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P1,P1 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P2,P2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P3,P3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,Y1,Y1 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,I1v2,I1v2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,I2v2,I2v2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,I3v2,I3v2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,Iv41,Iv41 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,Iv42,Iv42 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,Iv43,Iv43 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,Imv41,Imv41 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,Imv42,Imv42 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,Imv43,Imv43 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P1v2,P1v2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P2v2,P2v2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P3v2,P3v2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P0v3,P0v3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P1v3,P1v3 VMs,1,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P2v3,P2v3 VMs,1,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P3v3,P3v3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,EP1,EP1 VMs,1,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,EP2,EP2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,EP3,EP3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,WS1,WS1 VMs,1,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,WS2,WS2 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,WS3,WS3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P1mv3,P1mv3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P2mv3,P2mv3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P3mv3,P3mv3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P4mv3,P4mv3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P5mv3,P5mv3 VMs,0,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P0v4,P0v4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P1v4,P1v4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P2v4,P2v4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P3v4,P3v4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P1mv4,P1mv4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P2mv4,P2mv4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P3mv4,P3mv4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P4mv4,P4mv4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,P5mv4,P5mv4 VMs,0,30,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,northeurope,Microsoft.Web,*,Total Regional VMs,4,37,Instances
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.App,ManagedEnvironmentCount,Managed Environment Count,0,50,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.App,SubscriptionDedicatedNCA100Gpus,Subscription Dedicated NCA 100 Gpus,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.App,SessionPools,Session Pools,0,50,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.App,ExpressEnvironmentCount,Express Environment Count,0,500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Storage,StorageAccounts,Storage Accounts,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.StorageCache,Cache,Cache,0,4,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.StorageCache,AmlFilesystem,AmlFilesystem,0,4,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,VirtualNetworks,Virtual Networks,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,CustomIpPrefixes,Custom Ip Prefixes,0,5,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PublicIpPrefixes,Public Ip Prefixes,0,2147483647,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PublicIPAddresses,Public IP Addresses,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPv4BasicSkuPublicIpAddresses,Public IPv4 Addresses - Basic,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPv6BasicSkuPublicIpAddresses,Public IPv6 Addresses - Basic,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPv4StandardSkuPublicIpAddresses,Public IPv4 Addresses - Standard,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPv6StandardSkuPublicIpAddresses,Public IPv6 Addresses - Standard,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPv4GlobalTierPublicIpAddresses,Public IPv4 Addresses - Global Tier,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPv6GlobalTierPublicIpAddresses,Public IPv6 Addresses - Global Tier,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPv4InternetRoutingPreferencePublicIpAddresses,Public IPv4 Addresses - Internet Routing Preference,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPv6InternetRoutingPreferencePublicIpAddresses,Public IPv6 Addresses - Internet Routing Preference,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,NetworkSecurityGroups,Network Security Groups,0,5000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,NatGateways,Nat Gateways,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,NetworkInterfaces,Network Interfaces,0,65536,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PrivateEndpoints,Private Endpoints,0,65536,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PrivateEndpointRedirectMaps,Private Endpoint Redirect Maps,0,2147483647,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,LoadBalancers,Load Balancers,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PrivateLinkServices,Private Link Services,0,1800,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PrivateLinkServicesDirectConnect,Private Link Services Direct Connect,0,10,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,ApplicationGateways,Application Gateways,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,RouteTables,Route Tables,0,600,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,RouteFilters,Route Filters,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,NetworkInterfaceTapConfiguration,Network Interface Tap Configuration.,0,10,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,NetworkWatchers,Network Watchers,0,1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PacketCaptures,Packet Captures,0,10000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,ApplicationSecurityGroups,Application Security Groups.,0,3000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,DdosProtectionPlans,DDoS Protection Plans.,0,1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,DdosCustomPolicies,DDoS customized policies,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,ServiceEndpointPolicies,Service Endpoint Policies,0,500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,NetworkIntentPolicies,Network Intent Policies,0,400,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,StandardSkuLoadBalancers,Standard Sku Load Balancers,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,ServiceSkuLoadBalancers,Service Sku Load Balancers,0,10000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,AuxiliaryModeEnabledNetworkInterfaces,Auxiliary Mode Enabled Network Interfaces,0,10,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,VirtualNetworkAppliances,Virtual Network Appliances,0,2,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,DnsServersPerVirtualNetwork,DNS servers per Virtual Network,0,20,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,CustomDnsServersPerP2SVpnGateway,Custom DNS servers per P2SVpnGateway,0,5,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,SubnetsPerVirtualNetwork,Subnets per Virtual Network,0,3000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPConfigurationsPerVirtualNetwork,IP Configurations per Virtual Network,0,65536,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,IPV6ConfigurationsPerNetworkInterface,IPV6 Configurations per Network Interface,0,8,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PeeringsPerVirtualNetwork,Peerings per Virtual Network,0,500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,PrefixesPerSubnet,Prefixes per Subnet,0,25,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,SecurityRulesPerNetworkSecurityGroup,Security rules per Network Security Group,0,2000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,SecurityRulesPerNetworkIntentPolicy,Security rules per Network Intent Policy,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,RoutesPerNetworkIntentPolicy,Routes per Network Intent Policy,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,SecurityRuleAddressesOrPortsPerNetworkSecurityGroup,Security rules addresses or ports per Network Security Group,0,6000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,InboundRulesPerLoadBalancer,Inbound Rules per Load Balancer,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,FrontendIPConfigurationPerLoadBalancer,Frontend IP Configurations per Load Balancer,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,OutboundRulesPerLoadBalancer,Outbound Rules per Load Balancer,0,5,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,RoutesPerRouteTable,Routes per Route Table,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,RoutesWithServiceTagPerRouteTable,Routes with service tag per Route Table,0,25,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,SecondaryIPConfigurationsPerNetworkInterface,Secondary IP Configurations per Network Interface,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,SecondaryIPConfigurationsPerPrivateEndpointNetworkInterface,Secondary IP Configurations per PrivateEndpoint Network Interface,0,500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,InboundNatOrLbRulesPerNetworkInterface,Inbound rules per Network Interface,0,300,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,RouteFilterRulesPerRouteFilter,Route filter rules per Route Filter,0,1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,RouteFiltersPerExpressRouteBgpPeering,Route filters per Express route BGP Peering,0,1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Network,MinPublicIpInterNetworkPrefixLength,Public IPv4 Prefix Length,0,28,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,cores,Total Regional vCPUs,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,basicAFamily,basicAFamily,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,StandardAV2Family,StandardAV2Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,StandardDaV4Family,StandardDaV4Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,StandardDsV2Family,StandardDsV2Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,StandardEadsV5Family,StandardEadsV5Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,StandardEasV4Family,StandardEasV4Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,StandardEaV4Family,StandardEaV4Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,standardEISv3Family,standardEISv3Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,standardEIv3Family,standardEIv3Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,StandardEsV3Family,StandardEsV3Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,standardEv3Family,standardEv3Family,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.HDInsight,standardFFamily,standardFFamily,0,250,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,TotalClusters,Total Clusters,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,TotalDedicatedCores,Total Cluster Dedicated Regional vCPUs,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDFamily,Standard D Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDv2Family,Standard Dv2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDv3Family,Standard Dv3 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDSv2Family,Standard DSv2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDSv3Family,Standard DSv3 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardFSv2Family,Standard FSv2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCFamily,Standard NC Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCSv2Family,Standard NCSv2 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCSv3Family,Standard NCSv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDSFamily,Standard NDS Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDSv2Family,Standard NDSv2 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNVFamily,Standard NV Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardMSFamily,Standard MS Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNVSv3Family,Standard NVSv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHBrsv2Family,Standard HBrsv2 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHCSFamily,Standard HCS Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,Standard NCASv3_T4 Family,Standard  NCASv3_T4  Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,Standard NDASv4_A100 Family,Standard  NDASv4_A100  Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCADSA100v4Family,Standard NCADSA100v4 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standard NDAMSv4_A100Family,Standard  NDAMSv4_A100 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCPromoFamily,Standard NCPromo Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEAv4Family,Standard EAv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHFamily,Standard H Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHBSFamily,Standard HBS Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEv3Family,Standard Ev3 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDDSv4Family,Standard DDSv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardLSv2Family,Standard LSv2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHBv3Family,Standard HBv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardFXMDVSFamily,Standard FXMDVS Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardESv3Family,Standard ESv3 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDASv4Family,Standard DASv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEADSv5Family,Standard EADSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDDv4Family,Standard DDv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDAv4Family,Standard DAv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEDSv4Family,Standard EDSv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEDv4Family,Standard EDv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEASv4Family,Standard EASv4 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardAv2Family,Standard Av2 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDAMSv4A100noRDMAFamily,Standard NDAMSv4A100noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDADSv5Family,Standard DADSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEBDSv5Family,Standard EBDSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDDSv5Family,Standard DDSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDv5H100Family,Standard NDv5H100 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEDSv5Family,Standard EDSv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEDv5Family,Standard EDv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDDv5Family,Standard DDv5 Family Cluster Dedicated vCPUs,0,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardLSv3Family,Standard LSv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardLASv3Family,Standard LASv3 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDv4A100FlexFamily,Standard NDv4A100Flex Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCADSH100v5Family,Standard NCADSH100v5 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNVADSA10v5Family,Standard NVADSA10v5 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDv5H100FlexFamily,Standard NDv5H100Flex Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDAMSFv4A100Family,Standard NDAMSFv4A100 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISH100V5noRDMAFamily,Standard NDISH100V5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISFlexH100V5noRDMAFamily,Standard NDISFlexH100V5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardMSv2Family,Standard MSv2 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISH200V5noRDMAFamily,Standard NDISH200V5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISRH200V5Family,Standard NDISRH200V5 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISFlexH200V5noRDMAFamily,Standard NDISFlexH200V5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISRFlexH200V5Family,Standard NDISRFlexH200V5 Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDMI300Xv5IBFamily,Standard NDMI300Xv5IB Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDFlexMI300XV5noRDMAFamily,Standard NDFlexMI300XV5noRDMA Family Cluster Dedicated vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,TotalLowPriorityCores,Total Cluster Low Priority Regional vCPUs,0,300,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDFamily,Standard D Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDv2Family,Standard Dv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDv3Family,Standard Dv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDSv2Family,Standard DSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDSv3Family,Standard DSv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardFSv2Family,Standard FSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCFamily,Standard NC Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCSv2Family,Standard NCSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCSv3Family,Standard NCSv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDSFamily,Standard NDS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDSv2Family,Standard NDSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNVFamily,Standard NV Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardMSFamily,Standard MS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNVSv3Family,Standard NVSv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHBrsv2Family,Standard HBrsv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHCSFamily,Standard HCS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,Standard NCASv3_T4 Family,Standard  NCASv3_T4  Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,Standard NDASv4_A100 Family,Standard  NDASv4_A100  Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCADSA100v4Family,Standard NCADSA100v4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standard NDAMSv4_A100Family,Standard  NDAMSv4_A100 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCPromoFamily,Standard NCPromo Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEAv4Family,Standard EAv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHFamily,Standard H Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHBSFamily,Standard HBS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEv3Family,Standard Ev3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDDSv4Family,Standard DDSv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardLSv2Family,Standard LSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardHBv3Family,Standard HBv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardFXMDVSFamily,Standard FXMDVS Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardESv3Family,Standard ESv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDASv4Family,Standard DASv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEADSv5Family,Standard EADSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDDv4Family,Standard DDv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDAv4Family,Standard DAv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEDSv4Family,Standard EDSv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEDv4Family,Standard EDv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEASv4Family,Standard EASv4 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardAv2Family,Standard Av2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDAMSv4A100noRDMAFamily,Standard NDAMSv4A100noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDADSv5Family,Standard DADSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEBDSv5Family,Standard EBDSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDDSv5Family,Standard DDSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDv5H100Family,Standard NDv5H100 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEDSv5Family,Standard EDSv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardEDv5Family,Standard EDv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardDDv5Family,Standard DDv5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardLSv3Family,Standard LSv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardLASv3Family,Standard LASv3 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDv4A100FlexFamily,Standard NDv4A100Flex Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNCADSH100v5Family,Standard NCADSH100v5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNVADSA10v5Family,Standard NVADSA10v5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDv5H100FlexFamily,Standard NDv5H100Flex Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDAMSFv4A100Family,Standard NDAMSFv4A100 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISH100V5noRDMAFamily,Standard NDISH100V5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISFlexH100V5noRDMAFamily,Standard NDISFlexH100V5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardMSv2Family,Standard MSv2 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISH200V5noRDMAFamily,Standard NDISH200V5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISRH200V5Family,Standard NDISRH200V5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISFlexH200V5noRDMAFamily,Standard NDISFlexH200V5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,StandardNDISRFlexH200V5Family,Standard NDISRFlexH200V5 Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDMI300Xv5IBFamily,Standard NDMI300Xv5IB Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.MachineLearningServices,standardNDFlexMI300XV5noRDMAFamily,Standard NDFlexMI300XV5noRDMA Family Cluster LowPriority vCPUs,-1,-1,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.AVS,av36,av36,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.AVS,av36p,av36p,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.AVS,av52,av52,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.AVS,av64,av64,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.ContainerService,ManagedClusters,Managed Clusters,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,lowPriorityCores,Total Regional Low-priority vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,cores,Total Regional vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,virtualMachines,Virtual Machines,0,25000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,availabilitySets,Availability Sets,0,2500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,virtualMachineScaleSets,Virtual Machine Scale Sets,0,2500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,dedicatedVCpus,Dedicated vCPUs,0,3000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,cloudServices,Cloud Services,0,2500,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,basicAFamily,Basic A Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardA0_A7Family,Standard A0-A7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardA8_A11Family,Standard A8-A11 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardAv2Family,Standard Av2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardBSFamily,Standard BS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardBasv2Family,Standard Basv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardBsv2Family,Standard Bsv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardBpsv2Family,Standard Bpsv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDFamily,Standard D Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDv2Family,Standard Dv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDv2PromoFamily,Standard Dv2 Promo Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDadsv7Family,Standard Dadsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDaldsv7Family,Standard Daldsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDalsv7Family,Standard Dalsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDasv7Family,Standard Dasv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDdsv6Family,Standard Ddsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDldsv6Family,Standard Dldsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDlsv6Family,Standard Dlsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDsv6Family,Standard Dsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDADSv5Family,Standard DADSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDadv6Family,standard Dadv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDaldv6Family,standard Daldv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDalv6Family,standard Dalv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDASv4Family,Standard DASv4 Family vCPUs,0,175,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDASv5Family,Standard DASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDav6Family,standard Dav6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDAv4Family,Standard DAv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDDSv4Family,Standard DDSv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDDSv5Family,Standard DDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDDv4Family,Standard DDv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDDv5Family,Standard DDv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDLDSv5Family,Standard DLDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDLSv5Family,Standard DLSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDPDSv5Family,Standard DPDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDpdsv6Family,Standard Dpdsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDPLDSv5Family,Standard DPLDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDpldsv6Family,Standard Dpldsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDPLSv5Family,Standard DPLSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDplsv6Family,Standard Dplsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDPSv5Family,Standard DPSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDpsv6Family,Standard Dpsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDSv3Family,Standard DSv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDSv4Family,Standard DSv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDSv5Family,Standard DSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDv3Family,Standard Dv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDv4Family,Standard Dv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDv5Family,Standard Dv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCEDV6Family,Standard DCEDV6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCEV6Family,Standard DCEV6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCADCCV5Family,standard DCADCCV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCADSv5Family,Standard DCADSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCadsv6Family,Standard DCadsv6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCACCV5Family,standard DCACCV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCASv5Family,Standard DCASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCasv6Family,Standard DCasv6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDDCSv3Family,Standard DDCSv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCEDV5Family,Standard DCEDV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCEV5Family,Standard DCEV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCSv3Family,Standard DCSv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCSv2Family,Standard DCSv2 Family vCPUs,0,8,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDCSFamily,Standard DCS Family vCPUs,0,8,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDSFamily,Standard DS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDSv2Family,Standard DSv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardDSv2PromoFamily,Standard DSv2 Promo Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIDSv5Family,Standard EIDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIDv5Family,Standard EIDv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEISv5Family,Standard EISv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIv5Family,Standard EIv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIADSv5Family,Standard EIADSv5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIASv5Family,Standard EIASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIBDSv5Family,Standard EIBDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIBSv5Family,Standard EIBSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardEadsv7Family,Standard Eadsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardEasv7Family,Standard Easv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardEdsv6Family,Standard Edsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardEsv6Family,Standard Esv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEADSv5Family,Standard EADSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEASv4Family,Standard EASv4 Family vCPUs,0,175,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEASv5Family,Standard EASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEDSv4Family,Standard EDSv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEDSv5Family,Standard EDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardESv3Family,Standard ESv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardESv4Family,Standard ESv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardESv5Family,Standard ESv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEadv6Family,standard Eadv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEav6Family,standard Eav6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEAv4Family,Standard EAv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEBDSv5Family,Standard EBDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEBSv5Family,Standard EBSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEDv4Family,Standard EDv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEDv5Family,Standard EDv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEPDSv5Family,Standard EPDSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardEpdsv6Family,Standard Epdsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEPSv5Family,Standard EPSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardEpsv6Family,Standard Epsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEv3Family,Standard Ev3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEv4Family,Standard Ev4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEv5Family,Standard Ev5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEISv3Family,Standard EISv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIv3Family,Standard EIv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardXEIDSv4Family,Standard EIDSv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardXEISv4Family,Standard XEISv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardEIASv4Family,Standard EIASv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECEDV5Family,Standard ECEDV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECEV5Family,Standard ECEV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECADCCV5Family,standard ECADCCV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECADSv5Family,Standard ECADSv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECadsv6Family,Standard ECadsv6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECACCV5Family,standard ECACCV5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECASv5Family,Standard ECASv5 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECasv6Family,Standard ECasv6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardECEDV6Family,Standard ECEDV6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardECEV6Family,Standard ECEV6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECIADSv5Family,Standard ECIADSv5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardECIASv5Family,Standard ECIASv5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardFFamily,Standard F Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFamdsv7Family,Standard Famdsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFamsv7Family,Standard Famsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFadsv7Family,Standard Fadsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFaldsv7Family,Standard Faldsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFalsv6Family,Standard Falsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFalsv7Family,Standard Falsv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFamsv6Family,Standard Famsv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFasv6Family,Standard Fasv6 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFasv7Family,Standard Fasv7 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardFSFamily,Standard FS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardFSv2Family,Standard FSv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFXmdsv2Family,Standard FXmdsv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardFXmsv2Family,Standard FXmsv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardFXMDVSFamily,Standard FXMDVS Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardGFamily,Standard G Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardGSFamily,Standard GS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHFamily,Standard H Family vCPUs,0,32,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHPromoFamily,Standard H Promo Family vCPUs,0,32,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHBrsv2Family,Standard HBrsv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHBv3Family,Standard HBv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHBv4Family,Standard HBv4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHBv5Family,Standard Hbv5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHBSFamily,Standard HBS Family vCPUs,0,240,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHCSFamily,Standard HCS Family vCPUs,0,176,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardHXFamily,Standard HX Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,internalNDMSv1Family,InternalNDM Sv 1 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardLaosv4Family,Standard Laosv4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardLASv3Family,Standard LASv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardLasv4Family,Standard Lasv 4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardLSFamily,Standard LS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardLSv2Family,Standard LSv2 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardLSv3Family,Standard LSv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardLsv4Family,Standard Lsv 4 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMSFamily,Standard MS Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardMBDSMediumMemoryv3Family,Standard MBDSMediumMemoryv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardMBSMediumMemoryv3Family,Standard MBSMediumMemoryv3 Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMDSMediumMemoryv2Family,Standard MDSMediumMemoryv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMSMediumMemoryv2Family,Standard MSMediumMemoryv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMDSMediumMemoryv3Family,StandardMDS Medium Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMSMediumMemoryv3Family,StandardMS Medium Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMIDSMediumMemoryv2Family,Standard MIDSMediumMemoryv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMISMediumMemoryv2Family,Standard MISMediumMemoryv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMSv2Family,Standard MSv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMDSHighMemoryv3Family,StandardMDS High Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMSHighMemoryv3Family,StandardMS High Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMIDSHighMemoryv3Family,StandardMIDS High Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardMISHighMemoryv3Family,StandardMIS High Memoryv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNCFamily,Standard NC Family vCPUs,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNCSv2Family,Standard NCSv2 Family vCPUs,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNCSv3Family,Standard NCSv3 Family vCPUs,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNCPromoFamily,Standard NC Promo Family vCPUs,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardNCADSA10v4Family,Standard NCADSA10v4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,Standard NCASv3_T4 Family,Standard NCASv3_T4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardNCADSA100v4Family,Standard NCADS_A100_v4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardNCadsH100v5Family,Standard NCadsH100v5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardNCCads2023Family,Standard NCCads2023 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDISRGB300G5V6Family,Standardndisrgb300g5v6family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDISRGB300V6Family,Standard NDISR GB300V6 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDISRGB200V6NDRFamily,StandardNDISRGB200V6NDRFamily vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDSFamily,Standard NDS Family vCPUs,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDSv2Family,Standard NDSv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDSv3Family,Standard NDSv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standard NDAMSv4_A100Family,Standard NDAMSv4_A100Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,Standard NDASv4_A100 Family,Standard NDASv4_A100 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDSH100v5Family,Standard NDSH100v5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDISRH200V5Family,StandardNDISRH200V5Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNDISv5MI300XFamily,StandardNDI Sv 5MI300X Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardNGADSV620v1Family,Standard NGADSV620v1 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNPSFamily,Standard NPS Family vCPUs,0,350,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardNVADSA10v5Family,Standard NVADSA10v5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNVFamily,Standard NV Family vCPUs,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardNVadsV710v5Family,Standard NVadsV710v5 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNVSv2Family,Standard NVSv2 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNVSv3Family,Standard NVSv3 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNVPromoFamily,Standard NV Promo Family vCPUs,0,200,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardNVSv4Family,Standard NVSv4 Family vCPUs,-1,0,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,standardPBSFamily,Standard PBS Family vCPUs,0,24,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardDiskCount,Standard Storage Managed Disks,0,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,PremiumDiskCount,Premium Storage Managed Disks,0,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardSSDDiskCount,StandardSSDStorageDisks,0,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardSSDZRSDiskCount,StandardSSDZRSStorageDisks,0,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,PremiumZRSDiskCount,PremiumZRSStorageDisks,0,50000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,UltraSSDDiskCount,UltraSSDStorageDisks,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,PremiumV2DiskCount,PremiumV2StorageDisks,0,5000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardSnapshotCount,StandardStorageSnapshots,0,75000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,StandardSSDSnapshotCount,StandardSSDStorageSnapshots,0,75000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,PremiumSnapshotCount,PremiumStorageSnapshots,0,75000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,ZRSSnapshotCount,ZrsStorageSnapshots,0,75000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,UltraSSDDiskSizeInGB,UltraSSDTotalSizeInGB,0,102400,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,PremiumV2DiskSizeInGB,PremiumV2TotalDiskSizeInGB,0,1048576,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,DiskEncryptionSetCount,DiskEncryptionSets,0,5000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,DiskAccessCount,DiskAccesses,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,BackgroundCopyInProgressUltraSSDDiskCount,BackgroundCopyInProgressUltraSSDDisks,0,50,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,BackgroundCopyInProgressPremiumV2DiskCount,BackgroundCopyInProgressPremiumV2Disks,0,50,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,PremiumV2SnapshotCount,PremiumV2StorageSnapshots,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,PremiumV2SnapshotSizeInGB,PremiumV2TotalSnapshotSizeInGB,0,102400,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,Gallery,Gallery,0,100,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,GalleryImage,Gallery Image,0,1000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,GalleryImageVersion,Gallery Image Version,0,10000,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,GalleryApplicationVersion,Gallery Application Version,0,300,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Compute,GalleryScriptVersion,Gallery Script Version,0,300,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.DBforMySQL,standardBSFamily,standardBSFamily,0,128,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.DBforMySQL,standardDADSv5Family,standardDADSv5Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.DBforMySQL,standardDDSv4Family,standardDDSv4Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.DBforMySQL,standardEADSv5Family,standardEADSv5Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.DBforMySQL,standardEDSv4Family,standardEDSv4Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.DBforMySQL,standardEDSv5Family,standardEDSv5Family,0,256,Count
+rm-artfds-slz-n-sub-01,23b1a3cd-0e03-4852-aa04-bad88fd77c6b,westeurope,Microsoft.Web,*,Total Regional VMs,-1,0,Instances
